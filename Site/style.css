@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+	padding:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0px;
+	background:#ededed;
+	color: black;
+	transition: color 0.4s , background-color 0.5s;
+	font-family: 'Roboto', sans-serif;
+}
+
+.dark-theme{
+	background:black;
+	color:white;
+}
+
+#logo{
+	font-family:'Impact';
+	vertical-align:middle;
+	font-size:28px;
+}
+
+#darkbtn{
+	vertical-align:middle;
+	float: right;
+}
+
+button > a{
+	color:white;
+}
+
+button{
+	background-color:blue;
+	border-color:Transparent;
+	border-radius:3px;
+	font-weight:bold;
+	color:white;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:auto;
+	margin-bottom:auto;
+	padding:5px;
+	transition: background-color 0.1s, transform 0.2s;
+}
+
+button:active{
+	background-color:#222b47;
+	transform: scaleX(0.94) scaleY(0.94);
+}
+
+div.main{
+	margin:auto;
+	max-width:700px;
+	padding-left:10px;
+	padding-right:10px;
+	height:100%;
+	margin:auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+}
+
+div.box{
+	width:100%;
+	background: rgba(255,255,255, 0.15);
+	border-radius:5px;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	vertical-align:top;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.2);
+}
+
+.box > *{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #969696; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #474747; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666666; 
+}
